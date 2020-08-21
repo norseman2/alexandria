@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-alexandria-dev-140649-authRole",
+            "UnauthRoleArn": "arn:aws:iam::575704994123:role/amplify-alexandria-dev-140649-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::575704994123:role/amplify-alexandria-dev-140649-authRole",
+            "Region": "ca-central-1",
+            "DeploymentBucketName": "amplify-alexandria-dev-140649-deployment",
+            "UnauthRoleName": "amplify-alexandria-dev-140649-unauthRole",
+            "StackName": "amplify-alexandria-dev-140649",
+            "StackId": "arn:aws:cloudformation:ca-central-1:575704994123:stack/amplify-alexandria-dev-140649/8f07b9f0-e3b7-11ea-8f4c-0a976bcb2ea8",
+            "AmplifyAppId": "d32wijfd8rwtee"
+        }
+    }
+}
