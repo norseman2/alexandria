@@ -10,6 +10,11 @@
             "StackName": "amplify-alexandria-dev-140649",
             "StackId": "arn:aws:cloudformation:ca-central-1:575704994123:stack/amplify-alexandria-dev-140649/8f07b9f0-e3b7-11ea-8f4c-0a976bcb2ea8",
             "AmplifyAppId": "d32wijfd8rwtee"
+        },
+        "categories": {
+            "auth": {
+                "alexandria7427806d": {}
+            }
         }
     }
 }

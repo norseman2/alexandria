@@ -16,5 +16,13 @@
 				}
 			}
 		}
+	},
+	"auth": {
+		"alexandria7427806d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
 	}
 }

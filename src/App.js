@@ -2,6 +2,7 @@ import React from 'react';
 
 //amplify
 import { API, graphqlOperation } from 'aws-amplify'
+import { withAuthenticator } from 'aws-amplify-react'
 
 //react-bootstrap
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -13,7 +14,7 @@ import Form from 'react-bootstrap/Form';
 // import query definition
 import { listBooks as ListBooks } from './graphql/queries'
 
-export default class App extends React.PureComponent {
+class App extends React.PureComponent {
 
   constructor(props) {
     super(props);
@@ -77,3 +78,5 @@ export default class App extends React.PureComponent {
   }
 
 }
+
+export default withAuthenticator(App, { includeGreetings: true })
