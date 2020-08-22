@@ -5,3 +5,15 @@ type Book @model {
   author: String!
   year: Int!
 }
+
+type GoogleBook {
+  id: ID!
+  name: String!
+  description: String
+  author: String!
+  year: Int!
+}
+
+type Query {
+  getGoogleBooks(search: String): [GoogleBook] @function(name: "googlebooks-${env}")
+}
